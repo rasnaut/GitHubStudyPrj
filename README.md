@@ -1,2 +1,2 @@
-# GitHubStudyPrj
-Repo for researching GitHub tools
+# GitHub Study Project
+This is repository for researching GitHub tools and fuetures

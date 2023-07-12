@@ -28,7 +28,8 @@ function readLine() {
 
 function plusMinus(arr) {
     // Write your code here
-
+    currentLine += arr;
+    currentLine -=arr;
 }
 
 function main() {

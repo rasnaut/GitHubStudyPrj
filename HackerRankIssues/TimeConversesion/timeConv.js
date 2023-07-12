@@ -1,5 +1,7 @@
 'use strict';
 
+const fs = require('fs');
+
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
@@ -21,21 +23,25 @@ function readLine() {
 }
 
 /*
- * Complete the 'plusMinus' function below.
+ * Complete the 'timeConversion' function below.
  *
- * The function accepts INTEGER_ARRAY arr as parameter.
+ * The function is expected to return a STRING.
+ * The function accepts STRING s as parameter.
  */
 
-function plusMinus(arr) {
+function timeConversion(s) {
     // Write your code here
-    currentLine += arr;
-    currentLine -=arr;
+
 }
 
 function main() {
-    const n = parseInt(readLine().trim(), 10);
+    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
-    const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
+    const s = readLine();
 
-    plusMinus(arr);
+    const result = timeConversion(s);
+
+    ws.write(result + '\n');
+
+    ws.end();
 }

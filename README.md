@@ -1,5 +1,4 @@
 # GitHub Study Project
 This is repository for researching GitHub tools and fuetures
 change from Nataliia Oleksenko
-
-Some BadChanges
+new change to check

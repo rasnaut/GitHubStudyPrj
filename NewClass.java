@@ -3,5 +3,8 @@ public class NewClass {
         System.out.println("Say 'Hey' ");
 
         System.out.println("Hello 06062024");
+
+        System.out.println("Some new task. Back. Client Controller");
+
     }
 }

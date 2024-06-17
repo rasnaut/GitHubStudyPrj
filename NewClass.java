@@ -5,6 +5,7 @@ public class NewClass {
         System.out.println("Hello 06062024");
 
         System.out.println("Some new task. Back. Client Controller");
+        System.out.println("Some new task again. Back. Client Controller");
 
     }
 }
